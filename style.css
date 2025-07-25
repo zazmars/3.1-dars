@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header-img1 {
+    width: 175px;
+    height: 47px;
+
+
+}
+
+.header-img2 {
+    width: 40px;
+    height: 40px;
+
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    border-bottom: 2px solid #DEDBDB;
+    height: 140px;
+}
+
+.card {
+    display: flex;
+    gap: 15px;
+}
+
+.header-h2 {
+    margin-top: 5px;
+}
+
+.boxes {
+    width: 650px;
+    height: 786px;
+    border-width: 1px;
+    border-radius: 50px;
+    border: 1px solid #DEDBDB;
+    margin: 0 auto;
+    margin-top: 46px;
+
+}
+
+.box {
+    display: flex;
+    gap: 150px;
+    margin-top: 66px;
+    margin-left: 35px;
+}
+
+.minibox-h3 {
+    font-family: Inter;
+    font-weight: 700px;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #F0400F;
+}
+
+.minibox {
+    display: flex;
+
+}
+
+.minibox-img {
+    width: 27px;
+    height: 23px;
+}
+
+.h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #0E0D5D;
+    margin-top: 131px;
+    text-align: center;
+}
+
+.divs {
+    width: 533px;
+    height: 70px;
+    opacity: 1px;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    margin: 19px auto;
+    display: flex;
+}
+
+.op {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 28px;
+    color: black;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.qa {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 28px;
+    color: #757575;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 17px 50px 18px 42px;
+}
+
+.vb {
+    border: 1px solid #75757530;
+    margin-left: 60px;
+    padding-left: 51px;
+}
+
+::placeholder {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+h2 {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000A3;
+    text-align: center;
+    margin-top: 18px;
+
+}
+
+.button {
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+    margin-top: 31px;
+    margin-right: 58px;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.button:hover {
+    background-color: #F69E86;
+    transform: 0, 5s;
+    color: #FFFFFF;
+}
+
+.mn {
+    display: flex;
+    justify-content: end;
+}
+
+.as {
+    width: 255px;
+    height: 54px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    margin-left: 11px;
+}
